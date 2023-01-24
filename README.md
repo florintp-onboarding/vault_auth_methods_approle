@@ -5,7 +5,8 @@
 
 ### What is it :
 
-  This project creates a docker instance of Vault in a Raft (integrated storage).
+  This project creates a docker instance of Vault in a Raft (integrated storage),
+create the policies, approle and provide the steps to prove the policy enforcement for a KV version 2 secret.
 
 
 ### Prerequisites :
