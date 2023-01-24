@@ -1,7 +1,0 @@
-# Mount the AppRole auth method
-path "sys/auth/approle" {
-  capabilities = [ "read", "list" ]
-}
-path "kv/data/*" {
-  capabilities = [ "create", "read", "update", "delete", "list" ]
-}
